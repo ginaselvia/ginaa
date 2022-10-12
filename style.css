@@ -1,70 +1,54 @@
+
+@import url(http: //fonts.googleapis.com/css/family=Quicksand: 400,500&subset=latin-ext);
 body {
-	background-image: url(sg.jpg);
-	background-size: 100% 100%;
-	margin: auto;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
+	padding: 100px;
+	background-image: linear-gradient(-20deg, #ff2846 0%, #6944ff 100%);
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
 }
-.menu {
-	font-family: tahoma;
-	font-weight: bold;
-	height: 70px;
-	width: 100%;
-	background: black;
-	border-radius: 5px;
-	font-size: 15px;
+ul {
+	margin-left: -45px;
 }
-label{
-	font-family: comic sans ms;
-	font-size: 20pt;
-	color: white;
-	margin: 10px;
-	padding: 5px;
-	float: left;
-}
-
-.menu ul {
-	margin: 0px;
-	padding: 5px;
-	background: none;
-	display: block;
-	float: right;
-}
-
-.menu ul li {
+li {
 	list-style: none;
 	display: inline-block;
 }
-.menu ul li a {
-	display: block;
-	text-decoration: none;
-	padding: 20px;
-	color: #ddd;
+.main {
+	width: 800px;
+	height: 520px;
+	background-color: #fafafa;
+	margin: 0 auto;
+	padding-top: 20px;
+	border-radius: 10px;
+	border: 1px solid #eeeeee;
 }
-.menu ul li a:hover {
-	display: block;
-	color: green;
-	background: #222;
-	box-shadow: inset 0px 0px 5px #000;
+.img {
+	background-image: url(gina.jpg);
+	background-color: #eaeaea;
+	background-size: cover;
+	border-radius: 100px;
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+	border: 1px solid #eaeaea;
 }
-.menu ul li .dropdown {
-	display: none;
+h1 {
+	text-align: center;
+	font-size: 30px;
+	margin: 0;
+	font-weight: bold;
+	color: #6944ff;
 }
-.menu ul li:hover .dropdown {
-	display: block;
-	background: black;
-	position: absolute;
-	padding: 10px;
+text {
+	text-align: center;
+	font-size: 15px;
+	margin: 0;
+	color: #324e63;
 }
-.menu ul li:hover .dropdown li {
-	display: block;
-}
-.menu ul li:hover .dropdown li a {
-	padding: 10px;
-	border-radius: 5px;
-	margin-bottom: 5px;
-}
-.menu ul li:hover .dropdown li a:hover {
-	background: #222;
-	box-shadow: 0px 0px 5px #000;
+p {
+	margin: 0 auto;
+	padding-top: 20px;
+	width: 450px;
+	height: auto;
+	color: #324e63;
 }
